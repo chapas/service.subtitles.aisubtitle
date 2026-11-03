@@ -4,16 +4,15 @@ Kodi subtitle add-on that finds or extracts subtitles for a video and translates
 
 ## Features
 
-- Translates subtitles into the language selected in Kodi, with Portuguese mapped to European Portuguese (Portugal).
+- Translates subtitles into the language selected in Kodi.
 - Sources: YouTube captions, subtitles embedded in MKV and MP4 files, and the add-on's own subtitle search.
 - Translates the whole subtitle in one request, with a configurable timeout.
 - Caches translations so repeated playback does not call the API again.
-- Shows a progress dialog that can be cancelled with Back.
-- Logs the first and last three cues sent and returned, to keep Kodi logs short.
+- Shows a progress dialog that can be cancelled.
 
 ## Requirements
 
-- Kodi 21 (tested on Kodi 21.2, NVIDIA Shield).
+- Kodi 21 (tested on Kodi 21.2, might work on others).
 - Python 3 add-on runtime (`xbmc.python` 3.0.0).
 - An OpenAI-compatible chat completions endpoint and API key.
 
@@ -24,7 +23,7 @@ Kodi subtitle add-on that finds or extracts subtitles for a video and translates
 3. Open the add-on settings and set:
    - `api_url`: base URL of the endpoint (for example `https://api.deepinfra.com/v1/openai`).
    - `api_key`: your API key.
-   - `model`: model name (default `gpt-4o-mini`).
+   - `model`: model name (default `https://api.deepinfra.com/v1/openai`).
    - `timeout`: request timeout in seconds (default 300).
    - `custom_headers` (optional): extra headers as `Name: value` separated by `;`.
    - `debug_folder` (optional): folder for request and response dumps.
@@ -69,4 +68,4 @@ Some scripts in `tests/` (for example `live_api_check.py`) call real services an
 
 ## License
 
-Not yet specified.
+This addon is open-sourced software licensed under the 8MIT license9(https://opensource.org/licenses/MIT).

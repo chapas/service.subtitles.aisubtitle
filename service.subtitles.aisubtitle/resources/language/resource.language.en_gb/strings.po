@@ -1,0 +1,68 @@
+# Kodi Media Center language file
+# Addon Name: AI Subtitle
+# Addon id: service.subtitles.aisubtitle
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en_GB\n"
+
+msgctxt "#32000"
+msgid "Translation"
+msgstr ""
+
+msgctxt "#32001"
+msgid "Destination language"
+msgstr ""
+
+msgctxt "#32010"
+msgid "OpenAI compatible API"
+msgstr ""
+
+msgctxt "#32011"
+msgid "API base URL"
+msgstr ""
+
+msgctxt "#32012"
+msgid "API key"
+msgstr ""
+
+msgctxt "#32013"
+msgid "Model"
+msgstr ""
+
+msgctxt "#32014"
+msgid "Timeout (seconds)"
+msgstr ""
+
+msgctxt "#32016"
+msgid "Debug folder (saves source subtitle and API requests)"
+msgstr ""
+
+msgctxt "#32017"
+msgid "Log API request and response to Kodi log"
+msgstr ""
+
+msgctxt "#32015"
+msgid "Custom headers (Name: value; Name2: value2)"
+msgstr ""
+
+msgctxt "#32018"
+msgid "Verbose debug logging (all steps)"
+msgstr ""
+
+msgctxt "#32019"
+msgid "Choose source subtitle"
+msgstr ""
+
+msgctxt "#32020"
+msgid "API key is valid"
+msgstr ""
+
+msgctxt "#32021"
+msgid "API key check failed"
+msgstr ""
+
+msgctxt "#32027"
+msgid "Debug"
+msgstr ""
+

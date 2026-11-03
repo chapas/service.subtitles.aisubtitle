@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <category label="32000">
+	<setting id="target_language" type="labelenum" label="32001" default="English" values="Arabic|Bulgarian|Chinese|Croatian|Czech|Danish|Dutch|English|Estonian|Finnish|French|German|Greek|Hebrew|Hindi|Hungarian|Indonesian|Italian|Japanese|Korean|Latvian|Lithuanian|Norwegian|Persian|Polish|Portuguese|Portuguese (Brazil)|Romanian|Russian|Serbian|Slovak|Slovenian|Spanish|Swedish|Thai|Turkish|Ukrainian|Vietnamese"/>
+	<setting id="timeout" type="number" label="32014" default="300"/>
+  </category>
+  <category label="32010">
+	<setting id="api_url" type="text" label="32011" default="https://api.openai.com/v1"/>
+	<setting id="api_key" type="text" option="hidden" label="32012" default=""/>
+	<setting id="model" type="text" label="32013" default="gpt-4o-mini"/>
+	<setting id="custom_headers" type="text" label="32015" default=""/>
+  </category>
+  <category label="32027">
+	<setting id="debug_folder" type="folder" label="32016" default="" option="writeable"/>
+	<setting id="log_requests" type="bool" label="32017" default="false"/>
+	<setting id="debug_logging" type="bool" label="32018" default="false"/>
+  </category>
+</settings>
